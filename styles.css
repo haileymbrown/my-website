@@ -18,3 +18,7 @@ em {
 .first_step {
     font-family: 'Courier New', Courier, monospace
 }
+
+main h3 {
+    color: black;
+}
