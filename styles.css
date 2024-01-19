@@ -10,6 +10,11 @@ em {
     color: black
 }
 
+#git_p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
 .first_step {
     font-family: 'Courier New', Courier, monospace
 }
