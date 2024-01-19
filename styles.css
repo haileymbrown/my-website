@@ -1,0 +1,13 @@
+body {
+    background-color: #F7C9BE;
+}
+
+* {
+    color: darkred;
+}
+
+#git_em {
+    color: black
+}
+
+#git_p {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
