@@ -24,3 +24,9 @@ main h3 {
     color: black;
 }
 
+header a:hover { font-size: 200%
+}
+
+header a:visited {
+    color: purple
+}
