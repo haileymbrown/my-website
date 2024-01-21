@@ -7,7 +7,7 @@ body {
 }
 
 em {
-    color: black
+    color: black;
 }
 
 #git_p {
@@ -17,7 +17,7 @@ em {
 
 
 .first_step {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
 }
 
 main h3 {
@@ -28,5 +28,5 @@ header a:hover { font-size: 200%
 }
 
 header a:visited {
-    color: purple
+    color: purple;
 }
