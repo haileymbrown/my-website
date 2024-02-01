@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(45deg, #641010 9%, #370505 70%);
+    background: linear-gradient(45deg, #641010 9%, #370505 50%);
 }
 
 * {
     color: #8b0000;
+   
 }
 
 em {
@@ -22,6 +23,7 @@ em {
 
 main h3 {
     color: #000000;
+
 }
 
 header a:hover {
@@ -34,4 +36,11 @@ header a:visited {
 
 #simon {
     border: dotted #8b0000;
+}
+
+article {
+    column-count: 2;
+    column-gap: 35px;
+    column-rule: 2px solid #000000;
+    padding: 30px;
 }
