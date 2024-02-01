@@ -1,13 +1,13 @@
 body {
-    background-color: #F7C9BE;
+    background: linear-gradient(45deg, #641010 5%, #370505 50%);
 }
 
 * {
-    color: darkred;
+    color: #8b0000;
 }
 
 em {
-    color: black;
+    color: #000000;
 }
 
 #git_p {
@@ -21,7 +21,7 @@ em {
 }
 
 main h3 {
-    color: black;
+    color: #000000;
 }
 
 header a:hover {
@@ -29,5 +29,9 @@ header a:hover {
 }
 
 header a:visited {
-    color: purple;
+    color: #800080
+}
+
+#simon {
+    border: dotted #8b0000
 }
