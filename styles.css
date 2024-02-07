@@ -1,12 +1,12 @@
 body {
-    background: url("images/simon-pic.jpg") center center;
-    background-size: cover;
+    background: radial-gradient(#5C0A0A, #000000);
+
 }
 
 * {
     color: #8b0000;
-    -webkit-text-stroke: 1px #B70C0C;
-   
+    -webkit-text-stroke: .8px #B70C0C;
+
 }
 
 em {
@@ -16,15 +16,19 @@ em {
 #git_p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
+    color: #000000;
+    word-spacing: 20px;
 }
 
 
 .first_step {
     font-family: 'Courier New', Courier, monospace;
+    color: #C84D4D;
 }
 
 main h3 {
     color: #000000;
+    margin: 5px;
 
 }
 
@@ -33,11 +37,12 @@ header a:hover {
 }
 
 header a:visited {
-    color: #800080;
+    color: #C84D4D;
 }
 
 #simon {
     border: dotted #8b0000;
+    padding: 20px;
 }
 
 article {
