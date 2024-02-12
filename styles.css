@@ -51,3 +51,7 @@ article {
     column-rule: 2px solid #000000;
     padding: 30px;
 }
+
+ul.star {
+    list-style-image: url("../my-website/images/star.png");
+}
