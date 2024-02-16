@@ -40,9 +40,12 @@ header a:visited {
     color: #C84D4D;
 }
 
+/* my only current image on my web page, more will be coming soon! */
+
 #simon {
     border: dotted #8b0000;
     padding: 20px;
+    width: 50%;
 }
 
 article {
@@ -52,16 +55,13 @@ article {
     padding: 30px;
 }
 
-ul.star {
-    list-style-image: url("../my-website/images/star.png");
-}
 
 /* Navigation Menu */
 
 #nav_menu {
     padding-bottom: 2em;
     margin: auto;
-    width: 600px;
+    width: 75%;
 }
 
 #nav_menu ul {
@@ -70,12 +70,12 @@ ul.star {
 
 #nav_menu ul li {
     float: left;
+    width: 33%;
 }
 
 #nav_menu ul li a {
     text-align: center;
     display: block;
-    width: 175px;
     padding: 1em 0;
     text-decoration: none;
     background-color: #5C0A0A;
@@ -96,4 +96,25 @@ ul.star {
 
 main {
     clear: left;
+}
+
+/* media quiery */
+
+@media only screen and (max-width: 640px) {
+    #nav_menu ul li {
+        float: NONE;
+        width: 100%;
+    }
+
+
+    #nav_menu ul li a {
+        border-bottom: 2px solid white;
+        border-right: none;
+
+
+    }
+
+    #nav_menu ul li a.lastitem {
+        border-bottom: none;
+    }
 }
