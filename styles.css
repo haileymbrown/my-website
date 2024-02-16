@@ -45,7 +45,7 @@ header a:visited {
 #simon {
     border: dotted #8b0000;
     padding: 20px;
-    width: 50%;
+    width: 20%;
 }
 
 article {
@@ -118,3 +118,4 @@ main {
         border-bottom: none;
     }
 }
+
