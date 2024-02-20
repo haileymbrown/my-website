@@ -118,7 +118,11 @@ header {
 
 
 
-
+div h1 {
+    grid-area: header;
+    display: grid;
+    grid-gap: 5px;
+}
 
 main h3 {
     display: flex;
