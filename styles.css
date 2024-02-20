@@ -10,8 +10,9 @@ body {
 
 }
 
+/* havent decided how  want the font size to be, will most liely fluctuate over time */
 p {
-    font-size: 20px;
+    font-size: 100%;
 }
 
 em {
@@ -104,9 +105,12 @@ main {
 }
 
 .boss {
-    width: 15%;
+    width: 10%;
 }
 
+.ending {
+    width: 40%;
+}
 
 /* media quiery */
 
