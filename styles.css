@@ -116,11 +116,10 @@ header {
     width: 40%;
 }
 
-div {
-    grid-area: header
-}
+
 
 div h1 {
+    grid-area: header;
     display: grid;
     grid-gap: 5px;
 }
