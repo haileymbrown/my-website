@@ -109,7 +109,11 @@ header {
 /*the decorative features such as borders, padding etc will be more prominent in later considerations */
 
 .boss {
-    width: 10%;
+    width: 20%;
+}
+
+.enemies {
+    width: 20%;
 }
 
 .ending {
