@@ -1,7 +1,7 @@
 body {
     background: radial-gradient(#5C0A0A, #000000);
 }
-
+/*small note, the google font thing was only applied to text that doesn't already have a font set to it*/
 * {
     color: #8b0000;
     -webkit-text-stroke: .8px #B70C0C;
