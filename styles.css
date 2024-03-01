@@ -1,16 +1,14 @@
 body {
     background: radial-gradient(#5C0A0A, #000000);
-
 }
 
 * {
     color: #8b0000;
     -webkit-text-stroke: .8px #B70C0C;
-
-
+    font-family: "Open Sans", sans-serif;
 }
 
-/* havent decided how  want the font size to be, will most liely fluctuate over time */
+/* finalized font size */
 p {
     font-size: 115%;
 }
@@ -52,6 +50,7 @@ header a:visited {
     padding: .5%;
     width: 30%;
 }
+
 /* changed padding from 5px to .5%*/
 img {
     border: dotted #8b0000;
