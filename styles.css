@@ -149,7 +149,11 @@ main h3 {
 
 }
 
-
+i {
+    font-size: 1.5em;
+    padding: 2%;
+    color: #ffffff;
+}
 
 /*the query below minimizes the size of the hovered link when the window is minimized */
 @media only screen and (max-width: 640px) {
