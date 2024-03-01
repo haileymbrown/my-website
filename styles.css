@@ -12,7 +12,7 @@ body {
 
 /* havent decided how  want the font size to be, will most liely fluctuate over time */
 p {
-    font-size: 100%;
+    font-size: 115%;
 }
 
 em {
@@ -46,12 +46,16 @@ header a:visited {
     color: #C84D4D;
 }
 
-/* my only current image on my web page, more will be coming soon! */
 
 #simon {
     border: dotted #8b0000;
-    padding: 20px;
-    width: 20%;
+    padding: .5%;
+    width: 30%;
+}
+/* changed padding from 5px to .5%*/
+img {
+    border: dotted #8b0000;
+    padding: .5%;
 }
 
 article {
@@ -119,7 +123,6 @@ header {
 .ending {
     width: 40%;
 }
-
 
 
 div h1 {
