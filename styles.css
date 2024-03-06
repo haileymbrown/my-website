@@ -1,6 +1,7 @@
 body {
     background: radial-gradient(#5C0A0A, #000000);
 }
+
 /*small note, the google font thing was only applied to text that doesn't already have a font set to it*/
 * {
     color: #8b0000;
@@ -135,11 +136,19 @@ main h3 {
     flex-direction: row;
 }
 
+/* transition */
+#nav_menu ul li a {
+    transition: transform 0.3s ease-in-out;
+}
 
+/* defining hover affect */
+#nav_menu ul li a:hover {
+    transform: translateY(-5px);
+    /* Adjust the value based on your preference */
+}
 
 
 /* media query */
-
 
 #nav_menu ul li a {
     border-bottom: 2px solid white;
@@ -176,4 +185,16 @@ i {
     #nav_menu ul li {
         flex-basis: auto;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for smaller devices */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Styles for larger screens */
 }
