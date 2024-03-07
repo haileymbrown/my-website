@@ -177,6 +177,10 @@ header p {
     flex: 0 1 calc(50% - 20px);
     max-width: calc(50% - 20px);
     margin-bottom: 20px;
+    width: calc(50% - 20px);
+    border: 2px solid #8b0000;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .boss-info {
@@ -185,9 +189,12 @@ header p {
 
 /*ENDINGS PAGE*/
 .endings-container {
-    flex: 0 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
+    border: 2px solid #8b0000;
+    padding: 20px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+    width: calc(100% - 44px);
+    max-width: 100%;
 }
 
 .endings-info {
