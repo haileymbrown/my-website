@@ -52,17 +52,16 @@ header a:visited {
     width: 30%;
 }
 
-/* changed padding from 5px to .5%*/
 img {
     border: dotted #8b0000;
     padding: .5%;
 }
 
 article {
-
-    column-count: 2;
-    column-gap: 35px;
-    column-rule: 2px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 30px;
 }
 
@@ -110,7 +109,6 @@ header {
     grid-area: head;
 }
 
-/*the decorative features such as borders, padding etc will be more prominent in later considerations */
 
 .boss {
     width: 25%;
@@ -144,11 +142,8 @@ main h3 {
 /* defining hover affect */
 #nav_menu ul li a:hover {
     transform: translateY(-5px);
-    /* Adjust the value based on your preference */
 }
 
-
-/* media query */
 
 #nav_menu ul li a {
     border-bottom: 2px solid white;
@@ -169,6 +164,30 @@ article {
     border: 2px solid #8b0000;
     padding: 30px;
     margin: 10px;
+}
+
+/* BOSS PAGE */
+.boss-container {
+    flex: 0 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.boss-info {
+    text-align: center;
+}
+
+/*ENDINGS PAGE*/
+.endings-container {
+    flex: 0 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.endings-info {
+    text-align: center;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
 }
 
 /*the query below minimizes the size of the hovered link when the window is minimized */
