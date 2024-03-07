@@ -29,6 +29,7 @@ em {
 .first_step {
     font-family: 'Courier New', Courier, monospace;
     color: #C84D4D;
+    text-align: left;
 }
 
 main h3 {
@@ -166,6 +167,11 @@ article {
     margin: 10px;
 }
 
+header p {
+    margin-top: 10px;
+    /* Add margin at the top of the paragraph */
+}
+
 /* BOSS PAGE */
 .boss-container {
     flex: 0 1 calc(50% - 20px);
@@ -188,6 +194,43 @@ article {
     text-align: center;
     max-width: calc(100% - 20px);
     margin: 0 auto;
+}
+
+/*ENEMIES PAGE*/
+.enemies-container {
+    margin-bottom: 20px;
+    border: 2px solid #8b0000;
+    padding: 20px;
+}
+
+.enemies-container h1 {
+    margin-top: 0;
+    color: #8b0000;
+    font-size: 1.5em;
+}
+
+.enemies-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.enemies-container p {
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.enemies-container {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    border: 2px solid #8b0000;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 /*the query below minimizes the size of the hovered link when the window is minimized */
