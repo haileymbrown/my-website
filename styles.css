@@ -30,6 +30,7 @@ em {
     font-family: 'Courier New', Courier, monospace;
     color: #C84D4D;
     text-align: left;
+    float: left;
 }
 
 main h3 {
