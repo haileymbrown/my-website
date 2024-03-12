@@ -51,7 +51,9 @@ header a:visited {
 #simon {
     border: dotted #8b0000;
     padding: .5%;
-    width: 30%;
+    width: 40%;
+    display: block;
+    margin: auto;
 }
 
 img {
@@ -173,14 +175,18 @@ header p {
     /* Add margin at the top of the paragraph */
 }
 
+.download {
+    clear: both; /* Clear the float */
+}
+
 /* BOSS PAGE */
 .boss-container {
     flex: 0 1 calc(50% - 20px);
     max-width: calc(50% - 20px);
-    margin-bottom: 20px;
-    width: calc(50% - 20px);
+    margin-bottom: 5%;
+    width: calc (50% - 20px);
     border: 2px solid #8b0000;
-    padding: 20px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -240,6 +246,7 @@ article {
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 /*the query below minimizes the size of the hovered link when the window is minimized */
 @media only screen and (max-width: 640px) {
