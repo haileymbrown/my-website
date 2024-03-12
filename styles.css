@@ -176,7 +176,8 @@ header p {
 }
 
 .download {
-    clear: both; /* Clear the float */
+    clear: both;
+    /* Clear the float */
 }
 
 /* BOSS PAGE */
@@ -186,7 +187,7 @@ header p {
     margin-bottom: 5%;
     width: calc (50% - 20px);
     border: 2px solid #8b0000;
-    padding: 5px;
+    padding: 2px;
     box-sizing: border-box;
 }
 
@@ -214,7 +215,7 @@ header p {
 .enemies-container {
     margin-bottom: 20px;
     border: 2px solid #8b0000;
-    padding: 20px;
+    padding: 2px;
 }
 
 .enemies-container h1 {
@@ -230,7 +231,7 @@ header p {
 
 .enemies-container p {
     line-height: 1.6;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 article {
@@ -245,11 +246,6 @@ article {
     border: 2px solid #8b0000;
     padding: 20px;
     box-sizing: border-box;
-}
-
-.cw {
-    display: block;
-    margin: auto;
 }
 
 /*the query below minimizes the size of the hovered link when the window is minimized */
